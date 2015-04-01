@@ -24,3 +24,6 @@ puts "There are #{list.count} things on your list."
 end	
 
 puts "The 2nd item on your list is #{list[1]}."
+
+list.sort!
+groceries(list)
