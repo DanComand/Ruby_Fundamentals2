@@ -13,3 +13,15 @@ groceries(list)
 
 
 puts "There are #{list.count} things on your list."
+
+ if list.include? "bananas"
+
+		puts "You need to pick up bananas"
+
+	else
+
+		puts "You don't need bananas"
+
+
+
+end	
