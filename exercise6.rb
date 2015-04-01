@@ -25,5 +25,10 @@ end
 
 puts "The 2nd item on your list is #{list[1]}."
 
-list.sort!
-groceries(list)
+
+groceries(list.sort)
+list.delete("salmon")
+groceries(list.sort)
+
+
+
