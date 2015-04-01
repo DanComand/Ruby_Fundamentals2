@@ -18,3 +18,5 @@ end
 
 students[:cohort4] = 43
 cohorts(students)
+
+puts students.keys
