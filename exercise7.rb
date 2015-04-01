@@ -19,12 +19,19 @@ cohorts(students)
 
 puts students.keys
 
-students.each do |key, value|
-	new_value = (value*1.05).to_i
-	puts new_value
+def new_totals(new_students)
+
+	new_students.each do |key, value|
+		new_value = (value*1.05).to_i
+		puts new_value
+    new_students[key] = new_value
+	end
+
 end
 
 
+
+cohorts(students)
 
 
 
