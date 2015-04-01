@@ -21,7 +21,6 @@ puts "There are #{list.count} things on your list."
 	else
 
 		puts "You don't need bananas"
-
-
-
 end	
+
+puts "The 2nd item on your list is #{list[1]}."
