@@ -12,3 +12,4 @@ list.push("rice")
 groceries(list)
 
 
+puts "There are #{list.count} things on your list."
