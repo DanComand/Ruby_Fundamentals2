@@ -38,7 +38,7 @@ class Instructor < Person
 
 end
 
-
+#Creating new instances and calling greetings
 instructor = Instructor.new("Chris")
 instructor.greeting
 instructor.teach
@@ -50,10 +50,13 @@ student.learn
 
 #I've commented out lines 48 and 49 because they cause errors.
 #They cause errors because the teach method is part of the instructor class.
-#And the learn method is part of the student class, and you can call those methods
+#And the learn method is part of the student class,
+#and you can't call those methods across classes.
+#They can only be called on methods in their own class.
 
-
-
+#I should have committed more frequently during this assignment,
+# but I started it on Friday and finished Sunday so some of the commits
+# got lost.
 
 
 
